@@ -2,6 +2,11 @@
 
 sudo echo
 
+if [[ ! -f "credentials.txt" ]]; then
+	echo "Creating credentials.txt..."
+	touch credentials.txt
+fi
+
 echo "Changing the owner of credentials to server www-data..."
 sudo chown www-data:www-data credentials.txt
 
