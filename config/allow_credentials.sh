@@ -1,0 +1,11 @@
+#!/bin/bash
+
+sudo echo
+
+echo "Changing the owner of credentials to server www-data..."
+sudo chown www-data:www-data credentials.txt
+
+echo "Changing the permission of credentials to full..."
+sudo chmod 777 credentials.txt
+
+echo "Full Access to credentials.txt"
